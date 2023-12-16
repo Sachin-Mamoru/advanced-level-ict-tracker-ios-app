@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001CF82D2A76740700BE969F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001CF82C2A76740700BE969F /* ProfileViewController.swift */; };
+		001CF82F2A76E30900BE969F /* ProfileHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001CF82E2A76E30900BE969F /* ProfileHelpViewController.swift */; };
+		00ADEEB22A99239A000B80CF /* AddPastPaperController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADEEB12A99239A000B80CF /* AddPastPaperController.swift */; };
+		00ADEEB42A99336E000B80CF /* AddSchoolPaperController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADEEB32A99336E000B80CF /* AddSchoolPaperController.swift */; };
+		00ADEEB62A9935AE000B80CF /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADEEB52A9935AE000B80CF /* OverviewViewController.swift */; };
+		00ADEEB82A993885000B80CF /* TutorialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADEEB72A993885000B80CF /* TutorialsViewController.swift */; };
+		00ADEEBA2A993AAF000B80CF /* AddTutorialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADEEB92A993AAF000B80CF /* AddTutorialController.swift */; };
+		61114B0B2A97CC6100089933 /* SchoolPaperCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61114B0A2A97CC6100089933 /* SchoolPaperCollectionViewController.swift */; };
+		61114B0D2A97CC7300089933 /* TutorialCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61114B0C2A97CC7300089933 /* TutorialCollectionViewController.swift */; };
+		61171E792A98EB14004CE6BD /* LearningMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61171E782A98EB14004CE6BD /* LearningMaterial.swift */; };
+		61171E7B2A98EBEC004CE6BD /* PastPaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61171E7A2A98EBEC004CE6BD /* PastPaper.swift */; };
+		61171E7D2A98EC57004CE6BD /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61171E7C2A98EC57004CE6BD /* Tutorial.swift */; };
+		61171E7F2A98EC7A004CE6BD /* SchoolPaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61171E7E2A98EC7A004CE6BD /* SchoolPaper.swift */; };
+		61171E812A98ED5A004CE6BD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61171E802A98ED5A004CE6BD /* CollectionViewCell.swift */; };
+		61C3D59B2A94F240003B7AA5 /* PastPaperCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C3D59A2A94F240003B7AA5 /* PastPaperCollectionViewController.swift */; };
+		B940A81F257DA543004736AB /* AmortizedDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940A81E257DA543004736AB /* AmortizedDataController.swift */; };
+		B940A821257DA786004736AB /* AmortizedDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940A820257DA786004736AB /* AmortizedDataView.swift */; };
+		B940A823257DB1CC004736AB /* AmortizedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940A822257DB1CC004736AB /* AmortizedData.swift */; };
+		B9EAD2A7257AA6E7005B00FC /* MortgageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2A6257AA6E7005B00FC /* MortgageViewController.swift */; };
+		B9EAD2A9257AAADE005B00FC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2A8257AAADE005B00FC /* TabBarController.swift */; };
+		B9EAD2AB257AAB64005B00FC /* SavingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2AA257AAB64005B00FC /* SavingsViewController.swift */; };
+		B9EAD2AD257AAB73005B00FC /* LoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2AC257AAB73005B00FC /* LoanViewController.swift */; };
+		B9EAD2AE257ABA88005B00FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FFF57E2579A9FA0036AC75 /* Assets.xcassets */; };
+		B9EAD2B2257AD56D005B00FC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9EAD2B4257AD56D005B00FC /* Localizable.strings */; };
+		B9EAD2B6257AD7B4005B00FC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2B5257AD7B4005B00FC /* Colors.swift */; };
+		B9EAD2B8257AE7AD005B00FC /* HomeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2B7257AE7AD005B00FC /* HomeButtonView.swift */; };
+		B9EAD2BA257B173B005B00FC /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2B9257B173B005B00FC /* HomeButton.swift */; };
+		B9EAD2C3257BBEB0005B00FC /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2C2257BBEB0005B00FC /* ScrollViewController.swift */; };
+		B9EAD2C5257BEA90005B00FC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EAD2C4257BEA90005B00FC /* Launch Screen.storyboard */; };
+		B9EAD2C9257CE3BC005B00FC /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2C8257CE3BC005B00FC /* CommonFunctions.swift */; };
+		B9EAD2CB257CF15E005B00FC /* UITextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2CA257CF15E005B00FC /* UITextFields.swift */; };
+		B9EAD2D0257D4CC6005B00FC /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2CF257D4CC6005B00FC /* HelpViewController.swift */; };
+		B9EAD2D2257D5248005B00FC /* SavingHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2D1257D5248005B00FC /* SavingHelpViewController.swift */; };
+		B9EAD2D4257D5259005B00FC /* LoanHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2D3257D5259005B00FC /* LoanHelpViewController.swift */; };
+		B9EAD2D6257D526D005B00FC /* MortgageHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2D5257D526D005B00FC /* MortgageHelpViewController.swift */; };
+		B9EAD2E1257D98DF005B00FC /* SavingsData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2DF257D98DF005B00FC /* SavingsData+CoreDataClass.swift */; };
+		B9EAD2E2257D98DF005B00FC /* SavingsData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAD2E0257D98DF005B00FC /* SavingsData+CoreDataProperties.swift */; };
+		B9FFF5732579A9F70036AC75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFF5722579A9F70036AC75 /* AppDelegate.swift */; };
+		B9FFF5752579A9F70036AC75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFF5742579A9F70036AC75 /* SceneDelegate.swift */; };
+		B9FFF5772579A9F70036AC75 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFF5762579A9F70036AC75 /* MainViewController.swift */; };
+		B9FFF57A2579A9F70036AC75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FFF5782579A9F70036AC75 /* Main.storyboard */; };
+		B9FFF57D2579A9F70036AC75 /* Finance_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9FFF57B2579A9F70036AC75 /* Finance_Calculator.xcdatamodeld */; };
+		B9FFF58D2579A9FA0036AC75 /* Finance_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFF58C2579A9FA0036AC75 /* Finance_CalculatorTests.swift */; };
+		B9FFF5982579A9FA0036AC75 /* Finance_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFF5972579A9FA0036AC75 /* Finance_CalculatorUITests.swift */; };
+		C02E1E3B2A993E8B00FA45E1 /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E1E3A2A993E8B00FA45E1 /* Paper.swift */; };
+		C02E1E3D2A99E20D00FA45E1 /* ProfileViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E1E3C2A99E20D00FA45E1 /* ProfileViewControllerTests.swift */; };
+		C0C2E22E2A9A09D80084FE26 /* PastPaperData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C2E22C2A9A09D80084FE26 /* PastPaperData+CoreDataClass.swift */; };
+		C0C2E22F2A9A09D80084FE26 /* PastPaperData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C2E22D2A9A09D80084FE26 /* PastPaperData+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9FFF5892579A9FA0036AC75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9FFF5672579A9F70036AC75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FFF56E2579A9F70036AC75;
+			remoteInfo = "Finance Calculator";
+		};
+		B9FFF5942579A9FA0036AC75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9FFF5672579A9F70036AC75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FFF56E2579A9F70036AC75;
+			remoteInfo = "Finance Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001CF82C2A76740700BE969F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		001CF82E2A76E30900BE969F /* ProfileHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHelpViewController.swift; sourceTree = "<group>"; };
+		00ADEEB12A99239A000B80CF /* AddPastPaperController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPastPaperController.swift; sourceTree = "<group>"; };
+		00ADEEB32A99336E000B80CF /* AddSchoolPaperController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSchoolPaperController.swift; sourceTree = "<group>"; };
+		00ADEEB52A9935AE000B80CF /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		00ADEEB72A993885000B80CF /* TutorialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsViewController.swift; sourceTree = "<group>"; };
+		00ADEEB92A993AAF000B80CF /* AddTutorialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTutorialController.swift; sourceTree = "<group>"; };
+		61114B0A2A97CC6100089933 /* SchoolPaperCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolPaperCollectionViewController.swift; sourceTree = "<group>"; };
+		61114B0C2A97CC7300089933 /* TutorialCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCollectionViewController.swift; sourceTree = "<group>"; };
+		61171E782A98EB14004CE6BD /* LearningMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningMaterial.swift; sourceTree = "<group>"; };
+		61171E7A2A98EBEC004CE6BD /* PastPaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastPaper.swift; sourceTree = "<group>"; };
+		61171E7C2A98EC57004CE6BD /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		61171E7E2A98EC7A004CE6BD /* SchoolPaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolPaper.swift; sourceTree = "<group>"; };
+		61171E802A98ED5A004CE6BD /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		61C3D59A2A94F240003B7AA5 /* PastPaperCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastPaperCollectionViewController.swift; sourceTree = "<group>"; };
+		B940A81E257DA543004736AB /* AmortizedDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmortizedDataController.swift; sourceTree = "<group>"; };
+		B940A820257DA786004736AB /* AmortizedDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmortizedDataView.swift; sourceTree = "<group>"; };
+		B940A822257DB1CC004736AB /* AmortizedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmortizedData.swift; sourceTree = "<group>"; };
+		B9EAD2A6257AA6E7005B00FC /* MortgageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageViewController.swift; sourceTree = "<group>"; };
+		B9EAD2A8257AAADE005B00FC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B9EAD2AA257AAB64005B00FC /* SavingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsViewController.swift; sourceTree = "<group>"; };
+		B9EAD2AC257AAB73005B00FC /* LoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanViewController.swift; sourceTree = "<group>"; };
+		B9EAD2B3257AD56D005B00FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9EAD2B5257AD7B4005B00FC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B9EAD2B7257AE7AD005B00FC /* HomeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonView.swift; sourceTree = "<group>"; };
+		B9EAD2B9257B173B005B00FC /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
+		B9EAD2C2257BBEB0005B00FC /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		B9EAD2C4257BEA90005B00FC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B9EAD2C8257CE3BC005B00FC /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		B9EAD2CA257CF15E005B00FC /* UITextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFields.swift; sourceTree = "<group>"; };
+		B9EAD2CE257D4424005B00FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		B9EAD2CF257D4CC6005B00FC /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		B9EAD2D1257D5248005B00FC /* SavingHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingHelpViewController.swift; sourceTree = "<group>"; };
+		B9EAD2D3257D5259005B00FC /* LoanHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanHelpViewController.swift; sourceTree = "<group>"; };
+		B9EAD2D5257D526D005B00FC /* MortgageHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageHelpViewController.swift; sourceTree = "<group>"; };
+		B9EAD2DF257D98DF005B00FC /* SavingsData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SavingsData+CoreDataClass.swift"; path = "Finance Calculator/Model/SavingsData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B9EAD2E0257D98DF005B00FC /* SavingsData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SavingsData+CoreDataProperties.swift"; path = "Finance Calculator/Model/SavingsData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B9FFF56F2579A9F70036AC75 /* Finance Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finance Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FFF5722579A9F70036AC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9FFF5742579A9F70036AC75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B9FFF5762579A9F70036AC75 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B9FFF5792579A9F70036AC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9FFF57C2579A9F70036AC75 /* Finance_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Finance_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		B9FFF57E2579A9FA0036AC75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9FFF5832579A9FA0036AC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FFF5882579A9FA0036AC75 /* Finance CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finance CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FFF58C2579A9FA0036AC75 /* Finance_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance_CalculatorTests.swift; sourceTree = "<group>"; };
+		B9FFF58E2579A9FA0036AC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FFF5932579A9FA0036AC75 /* Finance CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finance CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FFF5972579A9FA0036AC75 /* Finance_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance_CalculatorUITests.swift; sourceTree = "<group>"; };
+		B9FFF5992579A9FA0036AC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02E1E3A2A993E8B00FA45E1 /* Paper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = "<group>"; };
+		C02E1E3C2A99E20D00FA45E1 /* ProfileViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewControllerTests.swift; sourceTree = "<group>"; };
+		C0C2E22C2A9A09D80084FE26 /* PastPaperData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PastPaperData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C0C2E22D2A9A09D80084FE26 /* PastPaperData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PastPaperData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9FFF56C2579A9F70036AC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFF5852579A9FA0036AC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFF5902579A9FA0036AC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9EAD2A5257AA310005B00FC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B9FFF5782579A9F70036AC75 /* Main.storyboard */,
+				B9EAD2C4257BEA90005B00FC /* Launch Screen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B9EAD2AF257AD155005B00FC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B9EAD2B4257AD56D005B00FC /* Localizable.strings */,
+				B9EAD2C8257CE3BC005B00FC /* CommonFunctions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B9EAD2BB257B19BC005B00FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C02E1E3A2A993E8B00FA45E1 /* Paper.swift */,
+				B9EAD2B9257B173B005B00FC /* HomeButton.swift */,
+				B940A822257DB1CC004736AB /* AmortizedData.swift */,
+				61171E782A98EB14004CE6BD /* LearningMaterial.swift */,
+				61171E7A2A98EBEC004CE6BD /* PastPaper.swift */,
+				61171E7C2A98EC57004CE6BD /* Tutorial.swift */,
+				61171E7E2A98EC7A004CE6BD /* SchoolPaper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9EAD2BC257B19ED005B00FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9EAD2B7257AE7AD005B00FC /* HomeButtonView.swift */,
+				B940A820257DA786004736AB /* AmortizedDataView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9EAD2BD257B3987005B00FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9EAD2AA257AAB64005B00FC /* SavingsViewController.swift */,
+				B9EAD2AC257AAB73005B00FC /* LoanViewController.swift */,
+				B9EAD2A6257AA6E7005B00FC /* MortgageViewController.swift */,
+				B9FFF5762579A9F70036AC75 /* MainViewController.swift */,
+				B9EAD2A8257AAADE005B00FC /* TabBarController.swift */,
+				B9EAD2C2257BBEB0005B00FC /* ScrollViewController.swift */,
+				B9EAD2CF257D4CC6005B00FC /* HelpViewController.swift */,
+				B9EAD2D1257D5248005B00FC /* SavingHelpViewController.swift */,
+				B9EAD2D3257D5259005B00FC /* LoanHelpViewController.swift */,
+				B9EAD2D5257D526D005B00FC /* MortgageHelpViewController.swift */,
+				B940A81E257DA543004736AB /* AmortizedDataController.swift */,
+				001CF82C2A76740700BE969F /* ProfileViewController.swift */,
+				001CF82E2A76E30900BE969F /* ProfileHelpViewController.swift */,
+				61C3D59A2A94F240003B7AA5 /* PastPaperCollectionViewController.swift */,
+				61114B0A2A97CC6100089933 /* SchoolPaperCollectionViewController.swift */,
+				61114B0C2A97CC7300089933 /* TutorialCollectionViewController.swift */,
+				61171E802A98ED5A004CE6BD /* CollectionViewCell.swift */,
+				00ADEEB12A99239A000B80CF /* AddPastPaperController.swift */,
+				00ADEEB32A99336E000B80CF /* AddSchoolPaperController.swift */,
+				00ADEEB52A9935AE000B80CF /* OverviewViewController.swift */,
+				00ADEEB72A993885000B80CF /* TutorialsViewController.swift */,
+				00ADEEB92A993AAF000B80CF /* AddTutorialController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B9EAD2CC257D3E0A005B00FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B9EAD2B5257AD7B4005B00FC /* Colors.swift */,
+				B9EAD2CA257CF15E005B00FC /* UITextFields.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B9FFF5662579A9F70036AC75 = {
+			isa = PBXGroup;
+			children = (
+				C0C2E22C2A9A09D80084FE26 /* PastPaperData+CoreDataClass.swift */,
+				C0C2E22D2A9A09D80084FE26 /* PastPaperData+CoreDataProperties.swift */,
+				B9EAD2DF257D98DF005B00FC /* SavingsData+CoreDataClass.swift */,
+				B9EAD2E0257D98DF005B00FC /* SavingsData+CoreDataProperties.swift */,
+				B9FFF5712579A9F70036AC75 /* Finance Calculator */,
+				B9FFF58B2579A9FA0036AC75 /* Finance CalculatorTests */,
+				B9FFF5962579A9FA0036AC75 /* Finance CalculatorUITests */,
+				B9FFF5702579A9F70036AC75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9FFF5702579A9F70036AC75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9FFF56F2579A9F70036AC75 /* Finance Calculator.app */,
+				B9FFF5882579A9FA0036AC75 /* Finance CalculatorTests.xctest */,
+				B9FFF5932579A9FA0036AC75 /* Finance CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9FFF5712579A9F70036AC75 /* Finance Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				B9EAD2CC257D3E0A005B00FC /* Extensions */,
+				B9EAD2BD257B3987005B00FC /* ViewControllers */,
+				B9EAD2BC257B19ED005B00FC /* View */,
+				B9EAD2BB257B19BC005B00FC /* Model */,
+				B9EAD2AF257AD155005B00FC /* Utils */,
+				B9EAD2A5257AA310005B00FC /* Storyboards */,
+				B9FFF5722579A9F70036AC75 /* AppDelegate.swift */,
+				B9FFF5742579A9F70036AC75 /* SceneDelegate.swift */,
+				B9FFF57E2579A9FA0036AC75 /* Assets.xcassets */,
+				B9FFF5832579A9FA0036AC75 /* Info.plist */,
+				B9FFF57B2579A9F70036AC75 /* Finance_Calculator.xcdatamodeld */,
+			);
+			path = "Finance Calculator";
+			sourceTree = "<group>";
+		};
+		B9FFF58B2579A9FA0036AC75 /* Finance CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9FFF58C2579A9FA0036AC75 /* Finance_CalculatorTests.swift */,
+				B9FFF58E2579A9FA0036AC75 /* Info.plist */,
+				C02E1E3C2A99E20D00FA45E1 /* ProfileViewControllerTests.swift */,
+			);
+			path = "Finance CalculatorTests";
+			sourceTree = "<group>";
+		};
+		B9FFF5962579A9FA0036AC75 /* Finance CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9FFF5972579A9FA0036AC75 /* Finance_CalculatorUITests.swift */,
+				B9FFF5992579A9FA0036AC75 /* Info.plist */,
+			);
+			path = "Finance CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9FFF56E2579A9F70036AC75 /* Finance Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FFF59C2579A9FA0036AC75 /* Build configuration list for PBXNativeTarget "Finance Calculator" */;
+			buildPhases = (
+				B9FFF56B2579A9F70036AC75 /* Sources */,
+				B9FFF56C2579A9F70036AC75 /* Frameworks */,
+				B9FFF56D2579A9F70036AC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finance Calculator";
+			productName = "Finance Calculator";
+			productReference = B9FFF56F2579A9F70036AC75 /* Finance Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9FFF5872579A9FA0036AC75 /* Finance CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FFF59F2579A9FA0036AC75 /* Build configuration list for PBXNativeTarget "Finance CalculatorTests" */;
+			buildPhases = (
+				B9FFF5842579A9FA0036AC75 /* Sources */,
+				B9FFF5852579A9FA0036AC75 /* Frameworks */,
+				B9FFF5862579A9FA0036AC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9FFF58A2579A9FA0036AC75 /* PBXTargetDependency */,
+			);
+			name = "Finance CalculatorTests";
+			productName = "Finance CalculatorTests";
+			productReference = B9FFF5882579A9FA0036AC75 /* Finance CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9FFF5922579A9FA0036AC75 /* Finance CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FFF5A22579A9FA0036AC75 /* Build configuration list for PBXNativeTarget "Finance CalculatorUITests" */;
+			buildPhases = (
+				B9FFF58F2579A9FA0036AC75 /* Sources */,
+				B9FFF5902579A9FA0036AC75 /* Frameworks */,
+				B9FFF5912579A9FA0036AC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9FFF5952579A9FA0036AC75 /* PBXTargetDependency */,
+			);
+			name = "Finance CalculatorUITests";
+			productName = "Finance CalculatorUITests";
+			productReference = B9FFF5932579A9FA0036AC75 /* Finance CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9FFF5672579A9F70036AC75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B9FFF56E2579A9F70036AC75 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					B9FFF5872579A9FA0036AC75 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B9FFF56E2579A9F70036AC75;
+					};
+					B9FFF5922579A9FA0036AC75 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B9FFF56E2579A9F70036AC75;
+					};
+				};
+			};
+			buildConfigurationList = B9FFF56A2579A9F70036AC75 /* Build configuration list for PBXProject "Finance Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9FFF5662579A9F70036AC75;
+			productRefGroup = B9FFF5702579A9F70036AC75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9FFF56E2579A9F70036AC75 /* Finance Calculator */,
+				B9FFF5872579A9FA0036AC75 /* Finance CalculatorTests */,
+				B9FFF5922579A9FA0036AC75 /* Finance CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9FFF56D2579A9F70036AC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EAD2AE257ABA88005B00FC /* Assets.xcassets in Resources */,
+				B9FFF57A2579A9F70036AC75 /* Main.storyboard in Resources */,
+				B9EAD2C5257BEA90005B00FC /* Launch Screen.storyboard in Resources */,
+				B9EAD2B2257AD56D005B00FC /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFF5862579A9FA0036AC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFF5912579A9FA0036AC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9FFF56B2579A9F70036AC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EAD2E1257D98DF005B00FC /* SavingsData+CoreDataClass.swift in Sources */,
+				61171E792A98EB14004CE6BD /* LearningMaterial.swift in Sources */,
+				B9EAD2A7257AA6E7005B00FC /* MortgageViewController.swift in Sources */,
+				B940A823257DB1CC004736AB /* AmortizedData.swift in Sources */,
+				00ADEEB22A99239A000B80CF /* AddPastPaperController.swift in Sources */,
+				61171E7B2A98EBEC004CE6BD /* PastPaper.swift in Sources */,
+				61114B0B2A97CC6100089933 /* SchoolPaperCollectionViewController.swift in Sources */,
+				B940A821257DA786004736AB /* AmortizedDataView.swift in Sources */,
+				B9EAD2B6257AD7B4005B00FC /* Colors.swift in Sources */,
+				B9EAD2D6257D526D005B00FC /* MortgageHelpViewController.swift in Sources */,
+				001CF82D2A76740700BE969F /* ProfileViewController.swift in Sources */,
+				B9FFF57D2579A9F70036AC75 /* Finance_Calculator.xcdatamodeld in Sources */,
+				001CF82F2A76E30900BE969F /* ProfileHelpViewController.swift in Sources */,
+				61171E7F2A98EC7A004CE6BD /* SchoolPaper.swift in Sources */,
+				B9FFF5772579A9F70036AC75 /* MainViewController.swift in Sources */,
+				B9EAD2D0257D4CC6005B00FC /* HelpViewController.swift in Sources */,
+				B9EAD2B8257AE7AD005B00FC /* HomeButtonView.swift in Sources */,
+				00ADEEB82A993885000B80CF /* TutorialsViewController.swift in Sources */,
+				B9EAD2D4257D5259005B00FC /* LoanHelpViewController.swift in Sources */,
+				B9EAD2BA257B173B005B00FC /* HomeButton.swift in Sources */,
+				B9EAD2A9257AAADE005B00FC /* TabBarController.swift in Sources */,
+				61C3D59B2A94F240003B7AA5 /* PastPaperCollectionViewController.swift in Sources */,
+				B9EAD2C3257BBEB0005B00FC /* ScrollViewController.swift in Sources */,
+				B9EAD2D2257D5248005B00FC /* SavingHelpViewController.swift in Sources */,
+				B9EAD2AB257AAB64005B00FC /* SavingsViewController.swift in Sources */,
+				00ADEEB42A99336E000B80CF /* AddSchoolPaperController.swift in Sources */,
+				B9EAD2CB257CF15E005B00FC /* UITextFields.swift in Sources */,
+				B9EAD2AD257AAB73005B00FC /* LoanViewController.swift in Sources */,
+				61114B0D2A97CC7300089933 /* TutorialCollectionViewController.swift in Sources */,
+				00ADEEBA2A993AAF000B80CF /* AddTutorialController.swift in Sources */,
+				B940A81F257DA543004736AB /* AmortizedDataController.swift in Sources */,
+				00ADEEB62A9935AE000B80CF /* OverviewViewController.swift in Sources */,
+				B9EAD2C9257CE3BC005B00FC /* CommonFunctions.swift in Sources */,
+				B9FFF5732579A9F70036AC75 /* AppDelegate.swift in Sources */,
+				61171E7D2A98EC57004CE6BD /* Tutorial.swift in Sources */,
+				C02E1E3B2A993E8B00FA45E1 /* Paper.swift in Sources */,
+				B9FFF5752579A9F70036AC75 /* SceneDelegate.swift in Sources */,
+				B9EAD2E2257D98DF005B00FC /* SavingsData+CoreDataProperties.swift in Sources */,
+				C0C2E22E2A9A09D80084FE26 /* PastPaperData+CoreDataClass.swift in Sources */,
+				61171E812A98ED5A004CE6BD /* CollectionViewCell.swift in Sources */,
+				C0C2E22F2A9A09D80084FE26 /* PastPaperData+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFF5842579A9FA0036AC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02E1E3D2A99E20D00FA45E1 /* ProfileViewControllerTests.swift in Sources */,
+				B9FFF58D2579A9FA0036AC75 /* Finance_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFF58F2579A9FA0036AC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FFF5982579A9FA0036AC75 /* Finance_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9FFF58A2579A9FA0036AC75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9FFF56E2579A9F70036AC75 /* Finance Calculator */;
+			targetProxy = B9FFF5892579A9FA0036AC75 /* PBXContainerItemProxy */;
+		};
+		B9FFF5952579A9FA0036AC75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9FFF56E2579A9F70036AC75 /* Finance Calculator */;
+			targetProxy = B9FFF5942579A9FA0036AC75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9EAD2B4257AD56D005B00FC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9EAD2B3257AD56D005B00FC /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B9FFF5782579A9F70036AC75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9FFF5792579A9F70036AC75 /* Base */,
+				B9EAD2CE257D4424005B00FC /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9FFF59A2579A9FA0036AC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9FFF59B2579A9FA0036AC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9FFF59D2579A9FA0036AC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R32U2P9LA;
+				INFOPLIST_FILE = "Finance Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ap.Finance-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B9FFF59E2579A9FA0036AC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R32U2P9LA;
+				INFOPLIST_FILE = "Finance Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ap.Finance-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B9FFF5A02579A9FA0036AC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27QF2MDTDA;
+				INFOPLIST_FILE = "Finance CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ap.Finance-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance Calculator.app/Finance Calculator";
+			};
+			name = Debug;
+		};
+		B9FFF5A12579A9FA0036AC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R32U2P9LA;
+				INFOPLIST_FILE = "Finance CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ap.Finance-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance Calculator.app/Finance Calculator";
+			};
+			name = Release;
+		};
+		B9FFF5A32579A9FA0036AC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R32U2P9LA;
+				INFOPLIST_FILE = "Finance CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ap.Finance-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Finance Calculator";
+			};
+			name = Debug;
+		};
+		B9FFF5A42579A9FA0036AC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R32U2P9LA;
+				INFOPLIST_FILE = "Finance CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ap.Finance-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Finance Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9FFF56A2579A9F70036AC75 /* Build configuration list for PBXProject "Finance Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FFF59A2579A9FA0036AC75 /* Debug */,
+				B9FFF59B2579A9FA0036AC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FFF59C2579A9FA0036AC75 /* Build configuration list for PBXNativeTarget "Finance Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FFF59D2579A9FA0036AC75 /* Debug */,
+				B9FFF59E2579A9FA0036AC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FFF59F2579A9FA0036AC75 /* Build configuration list for PBXNativeTarget "Finance CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FFF5A02579A9FA0036AC75 /* Debug */,
+				B9FFF5A12579A9FA0036AC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FFF5A22579A9FA0036AC75 /* Build configuration list for PBXNativeTarget "Finance CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FFF5A32579A9FA0036AC75 /* Debug */,
+				B9FFF5A42579A9FA0036AC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B9FFF57B2579A9F70036AC75 /* Finance_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B9FFF57C2579A9F70036AC75 /* Finance_Calculator.xcdatamodel */,
+			);
+			currentVersion = B9FFF57C2579A9F70036AC75 /* Finance_Calculator.xcdatamodel */;
+			path = Finance_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B9FFF5672579A9F70036AC75 /* Project object */;
+}

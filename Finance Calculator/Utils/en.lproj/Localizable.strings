@@ -1,0 +1,53 @@
+/* 
+  Strings.strings
+  Finance Calculator
+
+  Created by ABC on 12/5/20.
+  
+*/
+mortgage = "MORTGAGE";
+savings = "SAVINGS";
+profile = "PROFILE";
+loan = "LOAN";
+help = "HELP";
+clear = "Clear";
+savingsHelp = "Welcome to the Help Page:
+
+Welcome to the 'Advanced Level ICT Tracker' application's Help Page. This section is designed to provide you with guidance and insights on how to make the most out of our application. Whether you're a new user or looking for specific information, we're here to assist you.
+
+Getting Started:
+
+Adding Study Materials: To add past papers, school papers, or tutorials, navigate to the respective section and tap the '+' icon. Fill in the necessary details and related data, and tap 'Save.'
+
+Managing Materials: In the main sections, you can view the list of added study materials. Swipe left on an entry to reveal options for editing or deleting. Tap an entry to view detailed information.
+
+Profile and Analysis: Access your profile by tapping the user icon. Here, you'll find a summary of your added materials. For performance analysis, go to the 'Analysis' tab. Track your marks over time and gain insights into your progress.
+
+Search Functionality: Use the search bar at the top to quickly find specific study materials. Enter keywords related to the material you're looking for, and the app will display relevant results.
+
+Frequently Asked Questions:
+
+How do I edit a study material's details? Swipe left on the material entry and tap 'Edit.' Make the necessary changes and save.
+
+Can I delete a study material? Swipe left on the material entry and tap 'Delete.' Confirm the action, and the material will be removed.
+
+How does the performance analysis work? In the 'Analysis' tab of your profile, you'll find a graphical representation of your marks over time. This helps you understand trends and areas of improvement.
+
+What can I search for using the search bar? The search bar supports keywords related to study material titles, subjects, or content. It helps you quickly find the material you need.
+
+Contact Support:
+
+If you encounter any issues, have questions, or need assistance, don't hesitate to contact our support team. You can reach us at [support email] or [support phone number].
+
+Feedback and Suggestions:
+
+We value your input! If you have suggestions for improving the app or adding new features, we'd love to hear from you. Tap the 'Feedback' option in the app's settings to provide your valuable insights.
+
+Conclusion:
+
+We hope this Help Page provides you with a clear understanding of how to navigate and utilize the 'Advanced Level ICT Tracker' application. If you need further assistance, don't hesitate to refer back to this page or contact our support team. Thank you for choosing our app to enhance your study management and academic progress.";
+no = "No";
+year = "Year";
+futureValue = "Future Val";
+interest = "Interest %";
+effectiveRate = "E Rate %";
